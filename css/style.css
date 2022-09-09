@@ -1,0 +1,212 @@
+
+/* --------------- Website Theme --------------- */
+
+:root {
+  --primary: #fff;
+  --secondary: #a2a2a2;
+  --accent: #e2c78c;
+}
+
+.light-theme {
+  --accent: #fe8c2c;
+  --primary: #ffffff;
+  --secondary: #eff1f3;
+  --text-primary: #0f161d;
+  --text_secondary: #a5a8aa;
+  --text-bg: #eee;
+}
+
+body {
+  margin: 0;
+  background: #151517;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+*{box-sizing: border-box;}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+}
+
+a {
+  text-decoration:  none;
+  transition: 0.3s;
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+p {
+  color: var(--secondary);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: start;
+  align-items: center;
+}
+
+header {
+  background-image: linear-gradient(
+    90deg, #2c2c2e, #151517
+  );
+
+  min-height: 100vh;
+  color: var(--primary);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+header main {
+  width: 100%;
+  margin: 0 0 0 auto;
+  position: relative;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+main-image {
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav .container,
+.header-body .container {
+  padding: 1.65em 2.5em;
+}
+
+.brand {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  
+}
+
+nav ul li {
+  margin: 0 1.5em 0 0;
+  padding-bottom: 0.7em;
+}
+
+nav ul a {
+  padding-bottom: 0.7em;
+}
+
+.link-active {
+  color: var(--accent);
+  border-bottom: 
+   2px var(--accent) solid;
+}
+
+.menu-btn {
+  background: #3f3f3f;
+  padding: 2.2em;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-btn:hover {
+  background: #4f4f4f;
+}
+
+nav .menu-btn {
+  display: none;
+  padding: 0;
+  justify-self: end;
+}
+
+aside {
+  background: #2c2c2e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border-right: 1px #373739 solid;
+  position: relative;
+  z-index: 1;
+}
+
+.social {
+
+}
+
+/* --------------- General Styles --------------- */
+
+
+/* --------------- Reusable CSS Code --------------- */
+
+
+
+/* --------------- Navbar Styling --------------- */
+
+
+
+
+
+
+
+
+
+
+
+/* --------------- Showcase Area Styling --------------- */
+
+/* --------------- About Section Styling --------------- */
+
+/* --------------- Skills Section Styling --------------- */
+
+/* --------------- Sevices Section Styling --------------- */
+
+/* --------------- Portfolio Section Styling --------------- */
+
+/* --------------- Testimonials Section Styling --------------- */
+
+/* --------------- Contact Section Styling --------------- */
+
+/* --------------- Subscription Section Styling --------------- */
+
+/* --------------- Footer Styling --------------- */
+
+/* --------------- 1000px Screens --------------- */
+
+@media (max-width: 1000px) {
+}
+
+/* --------------- 768px Screens --------------- */
+
+@media (max-width: 768px) {
+}
+
+/* --------------- 500px Screens --------------- */
+
+@media (max-width: 500px) {
+}
